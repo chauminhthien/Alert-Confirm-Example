@@ -20,10 +20,16 @@
 
 ## Props 
   title       : string      | ""
+
   message     : string      | ""
+
   lblCancel   : string      | "Cancel"
+
   lblSuccess  : string      | "Yes. I Sure!"
+
   onCancel    : Function    | null
+
   onSuccess   : Function,   | null
+  
   className   : string      | ""
   
