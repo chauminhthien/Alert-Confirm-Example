@@ -7,7 +7,7 @@ class AlertConfirm extends React.Component {
     let { title, message, lblCancel, lblSuccess, onCancel, onSuccess, className, ...refs } = this.props;
     return (
       <div className="Alert-Root" { ...refs }>
-        <div className={ `Alert-Wrapper ${className}` }>
+        <div className={ `Alert-Wrapper ${(className) ? className : ""}` }>
           <div className="Alert-Icon">
             <span></span>
             <span></span>
